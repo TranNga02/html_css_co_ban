@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+.head{
+    padding: 10px;
+    background-color: #3a4f63;
+    border:2px solid black;
+}
+body{
+    margin: 0;
+}
+#url{
+    margin-left: 10px;
+}
+#search-icon{
+    font-size: 12px;
+    margin-left: 65px;
+    margin-top: 13px;
+    position:absolute;
+    z-index: 1;
+    color:#3a4f63;
+}
+#search-bar{
+    float: right;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding-left: 25px;
+}
+#url{
+    width:850px;
+}
+i {
+    font-size: 24px;
+    color:white;
+    margin: 5px;
+}
+.menu{
+    background-color: #465c71;
+    list-style-type: none;
+    padding: 0 5% 0 5%;
+    border:2px solid black;
+}
+.menu_li{
+    background-color: white;
+    display: inline-block;
+    width:15%;
+    padding: 5px 0px 5px 0px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px 0 10px -5px ; /* vì inline-block tạo ra margin-left=5px*/
+}
+.submenu{
+    display: none;
+    min-width: max-content;
+    position: absolute;
+    background-color: white;
+    border: 2px solid black;
+    text-align: left;
+    margin: 5px 0px 5px -1px ;
+    list-style-type: none;
+}
+.menu li:hover {
+    background-color: #bfcbd6;
+    color: #465c71;
+}
+#menu_down:hover .submenu{
+    display: block;
+}
+#menu_down {
+    position: relative;
+    display: inline-block;
+}
+.footer {
+    position:fixed;
+    text-align: right;
+    width:100%;
+    bottom: 0;
+    right:0;
+    background-color: #3a4f63;
+    border:2px solid black;
+}
+
+/* style Trang 2 */
+.tableData {
+    border:2px solid black;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    border-collapse: collapse;
+}
+.tableData td + td{
+    border-left:2px solid black;
+}
+.tableData tr:nth-child(1){
+    font-weight: bold;
+}
+.tableData tr:nth-child(even){
+    background-color: gray;
+}
+
+.table_Trang3 {
+    border: 2px solid black;
+    margin: 20px;
+}
+.tableTrang4{
+    border: 2px solid black;
+    margin: 20px;
+}
+.table_Trang3 td{
+    padding: 10px;
+}
+.tableTrang4 td{
+    padding: 10px;
+}
+
