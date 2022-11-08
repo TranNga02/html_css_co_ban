@@ -2,38 +2,9 @@
     margin: 0;
     padding: 0;
   }
-.head{
-    padding: 10px;
-    background-color: #3a4f63;
-    border:2px solid black;
-}
+
 body{
     margin: 0;
-}
-#url{
-    margin-left: 10px;
-}
-#search-icon{
-    font-size: 12px;
-    margin-left: 65px;
-    margin-top: 13px;
-    position:absolute;
-    z-index: 1;
-    color:#3a4f63;
-}
-#search-bar{
-    float: right;
-    margin-top: 10px;
-    border-radius: 20px;
-    padding-left: 25px;
-}
-#url{
-    width:850px;
-}
-i {
-    font-size: 24px;
-    color:white;
-    margin: 5px;
 }
 .menu{
     background-color: #465c71;
@@ -41,7 +12,7 @@ i {
     padding: 0 5% 0 5%;
     border:2px solid black;
 }
-.menu_li{
+.menu > ul > li{
     background-color: white;
     display: inline-block;
     width:15%;
@@ -50,7 +21,7 @@ i {
     text-align: center;
     margin: 10px 0 10px -5px ; /* vì inline-block tạo ra margin-left=5px*/
 }
-.submenu{
+.menu >ul >li > ul{
     display: none;
     min-width: max-content;
     position: absolute;
@@ -64,12 +35,8 @@ i {
     background-color: #bfcbd6;
     color: #465c71;
 }
-#menu_down:hover .submenu{
+.menu>ul>li:hover ul{
     display: block;
-}
-#menu_down {
-    position: relative;
-    display: inline-block;
 }
 .footer {
     position:fixed;
@@ -81,20 +48,20 @@ i {
     border:2px solid black;
 }
 
-/* style Trang 2 */
-.tableData {
+/* style page 2 */
+.table_page2 {
     border:2px solid black;
     width: 100%;
     margin: 10px 0px 10px 0px;
     border-collapse: collapse;
 }
-.tableData td + td{
+.table_page2 td + td{
     border-left:2px solid black;
 }
-.tableData tr:nth-child(1){
+.table_page2 tr:nth-child(1){
     font-weight: bold;
 }
-.tableData tr:nth-child(even){
+.table_page2 tr:nth-child(even){
     background-color: gray;
 }
 
