@@ -52,19 +52,19 @@ a{
 }
 
 /* style page 2 */
-.table_page2 {
+.table-page2 {
     border:2px solid black;
     width: 100%;
     margin: 10px 0px 10px 0px;
     border-collapse: collapse;
 }
-.table_page2 td + td{
+.table-page2 td + td{
     border-left:2px solid black;
 }
-.table_page2 tr:nth-child(1){
+.table-page2 tr:nth-child(1){
     font-weight: bold;
 }
-.table_page2 tr:nth-child(even){
+.table-page2 tr:nth-child(even){
     background-color: gray;
 }
 /* style page 3 */
