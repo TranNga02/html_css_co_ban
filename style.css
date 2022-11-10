@@ -12,7 +12,7 @@ body{
     padding: 0 5% 0 5%;
     border:2px solid black;
 }
-.menu > ul > li{
+.menu > li{
     background-color: white;
     display: inline-block;
     width:15%;
@@ -21,7 +21,7 @@ body{
     text-align: center;
     margin: 10px 0 10px -5px ; /* vì inline-block tạo ra margin-left=5px*/
 }
-.menu >ul >li > ul{
+.menu >li > ul{
     display: none;
     min-width: max-content;
     position: absolute;
@@ -35,8 +35,11 @@ body{
     background-color: #bfcbd6;
     color: #465c71;
 }
-.menu>ul>li:hover ul{
+.menu>li:hover ul{
     display: block;
+}
+a{
+    text-decoration: none;
 }
 .footer {
     position:fixed;
@@ -64,19 +67,19 @@ body{
 .table_page2 tr:nth-child(even){
     background-color: gray;
 }
-
-.tableTrang3 {
+/* style page 3 */
+.table-page3 {
     border: 2px solid black;
     margin: 20px;
 }
-.tableTrang4{
+.table-page3 td{
+    padding: 10px;
+}
+/* style page 4 */
+.table-page4{
     border: 2px solid black;
     margin: 20px;
 }
-.tableTrang3 td{
+.table-page4 td{
     padding: 10px;
 }
-.tableTrang4 td{
-    padding: 10px;
-}
-
